@@ -8,10 +8,10 @@ int main()
  double area;
  double radius;
 
- cout << "The enter the radius: ";
+ cout << "Enter the radius: ";
  cin >> radius;
  area = PI * pow(radius,2);
 
  cout << "The area is: "<< area;
-
+ return 0;
 }
